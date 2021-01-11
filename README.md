@@ -1,17 +1,46 @@
 # Portfolio Project
 
-In this project, you will build a portfolio website using plain HTML and CSS (Bootstrap 4).  
-This project can be ongoing and you can add to it as you progress through the course.  At the end, you could have a nice personal website showcasing your portfolio, links to your social media and github accounts and a good documentation and proof of your journey and skills as a programmer.
+
+In this project, you will build a portfolio site to showcase everything we have learned (and will continue to learn at Developers Institute).
+
+This will be an ongoing project starting with plain HTML, CSS and the Bootstrap 4 framework.  As you progress through the next 2 weeks, you can add javascript and DOM manipulation to the project. Later you can make it a fully-fledged web app, incorporating a Database, Python via a Django backend and some more advanced concepts like asynchronous requests.  
+
+At the end of this course, we will put our portfolios live!
+
+**Don't Panic! We will learn what all of that means!**
+
+
+
+# This project has 2 main goals:
+
+1. To facilitate learning of new concepts. The best way to __really__ understand a concept is to use it in the real world. Building this portfolio site will allow you to practice everything you learn over the coming weeks.  Watch your portfolio site level up as your knowledge levels up!
+
+2. To provide a showcase of what you can do.  At the end of this course, not only will you have learned to be Fullstack Developers. You will also have a github account full of exercises and projects.   In addition to that you will have a portfolio, live on the internet showcasing your work, links to your social media and github accounts and a good documentation and proof of your journey and skills as a programmer.
+
+# Roadmap
+
+Here are some optional ideas and a rough plan for this project:
+
+**Week 1:** A responsive site using HTML and CSS. You can layout the site using Grid, Flexbox or a CSS framework (We learn Bootstrap 4. But feel free to look at other like Materialize,  Tailwind, etc.  [Here is a list of some great CSS frameworks.](https://www.mockplus.com/blog/post/css-framework) 
+
+**Week 2 - 3:** Add some javascript. This could include some animations, or interaction with the user in response to clicks. A really nice idea would be to build a filter that allows the user to see only certain types of porojects. [Here is a great, simple example from w3shools.](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp) 
+
+**Week 6 - 10:** Add a django backend to your site. New projects can be added to the site with full __CRUD__ functionality. An admin backend and database can allow persistence of state changes.
+
+**Ongoing:** Add some asynchronous request to your site.  A simple but good way to learn about asynchronous requests is to build a __Like__ button and add them to each project. This will also teach you some fundementals of HTTP request / response, JSON, Request Headers and Sessions.  Don't worry, we will cover it all!
+
+# Lets Go!
+**Remember: Be creative. The below sections are only ideas and suggestions. Feel free to do your own thing!**
 
 # Setup
 
-1. Clone or Download this repository to you local machine. It contains some sample images that you can use, as well as a screenshot of the site you'll be building.  Grab what you need then delete the repo from your local machine. No need to keep it.
-1. Create a repository using Github Classrooom. (You will be provided with the link).  This is where you will build your portfolio. **You should also fork the repository so you have a copy for yourself**. Later, we can transfer ownership to you.
+1. Clone or Download this repository to you local machine. It contains some sample images that you can use, as well as a screenshot of an example site you could build.  Grab what you need then delete the repo from your local machine. No need to keep it.
+1. Create your own repository where you will build your portfolio. 
 
 # Building the Site
 
-Remember, you can modify your site however you feel. You can choose your own colors, or use standard ones. 
-The website does not have to work (links, buttons etc). It just has to look good with HTML and CSS You can come back later and modify them with functionality.
+Remember, you can modify your site however you feel. You can choose your own colors, or use standard ones.  Google around. There are some great portfolio sites out there to inspire you! 
+The website does not have to work at this stage (links, buttons etc). It just has to look good with HTML and CSS. You can come back later and add functionality.
 
 ## Getting Started
 1. Create a root folder for your project called "profile", or whatever you like, wherever you like, even the desktop is fine.
@@ -28,7 +57,7 @@ The website does not have to work (links, buttons etc). It just has to look good
         font-family: "Raleway";
     }
     ```
-1. Reset your template (google how if you don't know). 
+1. Reset your template (google "css reset" if you don't know). 
 1. Add the required parts to make it a proper HTML page.
 Add semantic tags for the navbar, header, and multiple profile sections. 
 
@@ -54,7 +83,7 @@ Add semantic tags for the navbar, header, and multiple profile sections.
 ## The Sections
 
 1. Space them nicely
-1. Kepp things responsive by using the Bootstrap grid.
+1. Keep things responsive by using the Bootstrap grid.
 1. For the *Blog* section, use Bootstrap4 "Cards". They are prebuilt elements ready to use."
 1. For the *Contact* section, use a form and the Bootstrap form controls.
 1. You can add social media icons using one of Bootstraps recommended Icon Sets.
@@ -67,7 +96,3 @@ Add semantic tags for the navbar, header, and multiple profile sections.
 1. Work in pairs to solve problems and figure things out. It's a great way to learn!
 1. Ask for help! But first, give a few different solutions a good try.
 1. Enjoy!
-
-
-
-
